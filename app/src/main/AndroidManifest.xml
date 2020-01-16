@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".CardFlipActivity"
             android:exported="true" />
+        <activity android:name=".MainActivity"
+            android:exported="true" />
 
         <activity android:name=".SignUpActivity"/>
         <activity android:name=".FirstActivity"
