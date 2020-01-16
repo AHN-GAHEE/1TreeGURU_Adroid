@@ -57,6 +57,7 @@ class CardFlipActivity : AppCompatActivity(), FragmentManager.OnBackStackChanged
             }
         }
 
+        // test
 
 
         val study_flip_container = findViewById(R.id.card_flip_container) as RelativeLayout
