@@ -1,9 +1,7 @@
 package com.example.guru_login
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.RelativeLayout
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import kotlinx.android.synthetic.main.card_flip.*
