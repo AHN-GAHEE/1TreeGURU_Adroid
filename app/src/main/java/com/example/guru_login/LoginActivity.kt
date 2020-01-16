@@ -1,5 +1,6 @@
 package com.example.guru_login
 import android.content.Context
+import android.content.Intent
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -42,6 +43,11 @@ class LoginActivity : AppCompatActivity() {
                                 Toast.LENGTH_SHORT).show()
                             val user = auth.currentUser
                             updateUI(user)
+
+                            //메인 화면으로 이동
+                            val nextIntent = Intent(this, CardFlipActivity::class.java)
+                            startActivity(nextIntent)
+
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.exception)

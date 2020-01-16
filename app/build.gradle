@@ -41,4 +41,7 @@ dependencies {
     //lottie
     implementation 'com.airbnb.android:lottie:3.3.1'
 
+    // CardView
+    implementation 'com.google.android.material:material:1.0.0'
+
 }
